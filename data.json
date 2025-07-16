@@ -1,0 +1,40 @@
+
+[
+    {
+        "codigo": "136201",
+        "nombre": "Gestión de Empresas",
+        "creditos": 5,
+        "categoria": "adm",
+        "semestre": 1,
+        "estado": "disponible",
+        "prerrequisitos": []
+    },
+    {
+        "codigo": "136202",
+        "nombre": "Cálculo I",
+        "creditos": 5,
+        "categoria": "mat",
+        "semestre": 1,
+        "estado": "disponible",
+        "prerrequisitos": []
+    },
+    {
+        "codigo": "136203",
+        "nombre": "Economía I",
+        "creditos": 4,
+        "categoria": "eco",
+        "semestre": 1,
+        "estado": "bloqueado",
+        "prerrequisitos": ["136202"]
+    },
+    {
+        "codigo": "ELECT-001",
+        "nombre": "Electivo Licenciatura",
+        "creditos": 4,
+        "categoria": "electivo",
+        "semestre": 7,
+        "estado": "bloqueado",
+        "editable": true,
+        "prerrequisitos": []
+    }
+]
