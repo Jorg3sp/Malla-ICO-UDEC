@@ -1,7 +1,7 @@
 
-# Malla Ingeniería Comercial - UdeC Chillán
+# Malla Ingeniería Comercial - UdeC Concepción
 
-Este proyecto es una visualización interactiva de la malla curricular de la carrera de Ingeniería Comercial (sede Chillán) de la Universidad de Concepción.
+Este proyecto es una visualización interactiva de la malla curricular de la carrera de Ingeniería Comercial (sede Concepción) de la Universidad de Concepción.
 
 ## 🧩 Funcionalidades
 
