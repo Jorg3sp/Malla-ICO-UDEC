@@ -1,0 +1,42 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#malla {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 16px;
+}
+
+.ramo {
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.ramo.bloqueado {
+    background-color: #d3d3d3;
+    cursor: not-allowed;
+    color: #777;
+}
+
+.ramo.disponible { border: 2px dashed #ccc; }
+.ramo.aprobado { border: 2px solid green; }
+
+.ramo.mat { background-color: #cce5ff; }
+.ramo.eco { background-color: #a8d5a2; }
+.ramo.adm { background-color: #ffd8a8; }
+.ramo.electivo { background-color: #e0c8f7; }
